@@ -1,0 +1,107 @@
+hash: afe5b52b0fe6b65604ed526e8cd20e326e184581534366cdec1885bdf5794bd4
+updated: 2018-02-20T02:01:10.121398867Z
+imports:
+- name: cloud.google.com/go
+  version: 767c40d6a2e058483c25fa193e963a22da17236d
+  subpackages:
+  - compute/metadata
+  - datastore
+  - internal
+  - internal/atomiccache
+  - internal/fields
+  - internal/version
+- name: github.com/golang/protobuf
+  version: bbd03ef6da3a115852eaf24c8a1c46aeb39aa175
+  subpackages:
+  - proto
+  - protoc-gen-go/descriptor
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/struct
+  - ptypes/timestamp
+  - ptypes/wrappers
+- name: github.com/googleapis/gax-go
+  version: 317e0006254c44a0ac427cc52a0e083ff0b9622f
+- name: golang.org/x/net
+  version: cbe0f9307d0156177f9dd5dc85da1a31abc5f2fb
+  subpackages:
+  - context
+  - context/ctxhttp
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/oauth2
+  version: 543e37812f10c46c622c9575afd7ad22f22a12ba
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: golang.org/x/text
+  version: 4e4a3210bb54bb31f6ab2cdca2edcc0b50c420c1
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/api
+  version: c76a25da6c114df45a86acb8873ae83eda1430b9
+  subpackages:
+  - googleapi
+  - googleapi/internal/uritemplates
+  - internal
+  - iterator
+  - option
+  - transport/grpc
+- name: google.golang.org/appengine
+  version: 5bee14b453b4c71be47ec1781b0fa61c2ea182db
+  subpackages:
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/socket
+  - internal/urlfetch
+  - socket
+  - urlfetch
+- name: google.golang.org/genproto
+  version: 2b5a72b8730b0b16380010cfe5286c42108d88e7
+  subpackages:
+  - googleapis/api/annotations
+  - googleapis/datastore/v1
+  - googleapis/rpc/status
+  - googleapis/type/latlng
+- name: google.golang.org/grpc
+  version: dfa18343df54bda471a4b53677aa7c0d0df882d1
+  subpackages:
+  - balancer
+  - balancer/base
+  - balancer/roundrobin
+  - codes
+  - connectivity
+  - credentials
+  - credentials/oauth
+  - encoding
+  - encoding/proto
+  - grpclb/grpc_lb_v1/messages
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - resolver/dns
+  - resolver/passthrough
+  - stats
+  - status
+  - tap
+  - transport
+testImports: []

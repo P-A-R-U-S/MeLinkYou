@@ -1,0 +1,5 @@
+si 1
+speed 2000
+r
+h
+loadbin nRF52_DK_DEBUG.bin,0x00000000

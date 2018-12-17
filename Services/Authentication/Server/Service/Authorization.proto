@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+import "Base.proto";
+
+
+service Login {
+    rpc Register(RegisterUserRequest) returns (RegisterUserResponse) {}
+    rpc UnRegister(UnRegisterUserRequest) returns (UnRegisterUserResponse) {}
+}
+
+
+/*
+SingInRequest represents a request to signIn into the system.
+*/
+message SingInRequest {
+    RequestOption option = 1;
+    string email = 2;
+    string token = 3;
+}
+
+/*
+SingInResponse represents response about sign in into the system.
+*/
+message SingInResponse {
+    ResponseOption option = 1;
+}
+
+/*
+SingOutRequest represents a request to signOut from the system.
+*/
+message SingOutRequest {
+    RequestOption option = 1;
+    string email = 2;
+    string token = 3;
+}
+
+/*
+SingOutResponse represents response about sign out from the system.
+*/
+message SingOutResponse {
+    ResponseOption option = 1;
+}

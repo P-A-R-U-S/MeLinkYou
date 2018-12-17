@@ -1,0 +1,6 @@
+r
+h
+loadfile d:\Projects_EclipseNRF\meLinkYou\_build\nrf52832_xxaa.hex
+r
+g
+qc

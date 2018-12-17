@@ -1,0 +1,9 @@
+package: ""
+import:
+- package: cloud.google.com/go
+  version: v0.18.0
+  subpackages:
+  - datastore
+- package: golang.org/x/net
+  subpackages:
+  - context

@@ -1,0 +1,78 @@
+syntax = "proto3";
+
+import "Base.proto";
+
+service RegisterUser {
+    rpc Register(RegisterUserRequest) returns (RegisterUserResponse) {}
+    rpc UnRegister(UnRegisterUserRequest) returns (UnRegisterUserResponse) {}
+}
+
+
+/*
+RegisterUserRequest represents a request to create new user account.
+*/
+message RegisterUserRequest {
+    RequestOption option = 1;
+    string email = 2;
+    string password = 3;
+}
+
+/*
+RegisterUserResponse represents response about user create account with
+asymmetrical ciphering token.
+*/
+message RegisterUserResponse {
+    ResponseOption option = 1;
+    string token = 2;
+}
+
+/*
+UnRegisterUserRequest represents a request to disable user account.
+*/
+message UnRegisterUserRequest {
+    RequestOption option = 1;
+    string email = 2;
+    string password = 3;
+}
+
+/*
+UnRegisterUserResponse represents response about disabling user account.
+*/
+message UnRegisterUserResponse {
+    ResponseOption option = 1;
+}
+
+
+/*
+SingInRequest represents a request to signIn into the system.
+*/
+message SingInRequest {
+    RequestOption option = 1;
+    string email = 2;
+    string token = 3;
+}
+
+/*
+SingInResponse represents response about sign in into the system.
+*/
+message SingInResponse {
+    ResponseOption option = 1;
+}
+
+/*
+SingOutRequest represents a request to signOut from the system.
+*/
+message SingOutRequest {
+    RequestOption option = 1;
+    string email = 2;
+    string token = 3;
+}
+
+/*
+SingOutResponse represents response about sign out from the system.
+*/
+message SingOutResponse {
+    ResponseOption option = 1;
+}
+
+
