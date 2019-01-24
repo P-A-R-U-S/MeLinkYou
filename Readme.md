@@ -1,4 +1,7 @@
-# MeLinkYou  - Project Title [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/parus)
+# MeLinkYou  - Project Title 
+
+[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental)
+[![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/parus)
 
 MeLinkYou is platform for secure transferring HASH-keys across different devices 
 via radio-signal to short distance (around 100 - 1000m) and collecting GPS-position of receiver
@@ -20,7 +23,15 @@ Communication process can be displayed in following way:
 
 
 ## Where we are now..
-We are in process of completing development board and testing board. 
+**[January, 23, 2017]** 
+We are still in process of completing board:
+1. Unfortunately battery are dieing too fast due to the power controller we use and we have to design new Li-On Cell Protection circuit.
+2. Re-designed board to fit Li-On Cell Protection circuit without increasing board size. And we still need make board smaller in future to fit into the bracelet or trinket.
+
+![BoardStage1-front](Documentation/Stage2/Board1.JPG)
+
+**[December, 20, 2018]** 
+We are in process of completing development and testing board: 
 1. As you can see on picture below we are designed integration board for 
    [CAM-M8 series](https://www.u-blox.com/en/product/cam-m8-series) GPS Module.
 2. On the back of the board Li-On battery had been added. I didn't check power consumption 
