@@ -23,7 +23,7 @@ Communication process can be displayed in following way:
 
 
 ## Where we are now..
-**[January, 23, 2017]** 
+**[January, 23, 2019]** 
 We are still in process of completing board:
 1. Unfortunately battery are dieing too fast due to the power controller we use and we have to design new Li-On Cell Protection circuit.
 2. Re-designed board to fit Li-On Cell Protection circuit without increasing board size. And we still need make board smaller in future to fit into the bracelet or trinket.
