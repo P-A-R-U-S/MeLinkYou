@@ -21,7 +21,6 @@ Communication process can be displayed in following way:
 2. Passive - transferring data is ON, tracking GPS is ON, BLE is Off
 3. Off - no data transfer, no GPS tracking, no BLE connection.
 
-
 ## Where we are now..
 **[January, 23, 2019]** 
 We are still in process of completing board:
