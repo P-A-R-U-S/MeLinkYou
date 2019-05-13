@@ -22,12 +22,22 @@ Communication process can be displayed in following way:
 3. Off - no data transfer, no GPS tracking, no BLE connection.
 
 ## Where we are now..
+**[March, 13, 2019]** 
+Looks like we've completed prototypes/MVP which allow us to test general idea and start to develop iOS mobile app to read data from device and design list of service
+1. Development board are completed.
+2. Integrate Li-On batter (Li-ion Battery 1020mAh 3.7V 3.8 wh for Nokia BL-5C/5B/4U Rechargeable)
+
+![BoardStage1-front](Documentation/Stage3/Board3.1.JPG)
+![BoardStage1-front](Documentation/Stage3/Board3.2.JPG)
+![BoardStage1-front](Documentation/Stage3/Board3.3.JPG)
+![BoardStage1-front](Documentation/Stage3/Board3.4.JPG)
+
 **[January, 23, 2019]** 
 We are still in process of completing board:
 1. Unfortunately battery are dieing too fast due to the power controller we use and we have to design new Li-On Cell Protection circuit.
 2. Re-designed board to fit Li-On Cell Protection circuit without increasing board size. And we still need make board smaller in future to fit into the bracelet or trinket.
 
-![BoardStage1-front](Documentation/Stage2/Board1.JPG)
+![BoardStage1-front](Documentation/Stage2/Board2.1.JPG)
 
 **[December, 20, 2018]** 
 We are in process of completing development and testing board: 
@@ -38,8 +48,8 @@ We are in process of completing development and testing board:
    are not a priority.
 3. Power controller to charge Li-On battery was also added on the board.
 
-![BoardStage1-front](Documentation/Stage1/Board1.JPEG)
-![BoardStage1-back](Documentation/Stage1/Board3.JPEG)
+![BoardStage1-front](Documentation/Stage1/Board1.1.JPEG)
+![BoardStage1-back](Documentation/Stage1/Board1.3.JPEG)
 
 
 ## Command
